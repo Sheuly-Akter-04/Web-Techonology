@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>Change Profile Picture</title>
+</head>
+
+<body>
+    <table border="3" align="center" width=65%;">
+        <tr>
+            <td align="left" colspan="3">
+                <img src="logo.png" align="left" height="65" width="150" border="1"><b><center>PHP RESTAURANT</center></b> 
+                <div align="right">
+                    <a href="Home page.html">Home |</a>
+                    <a href="Registration.html">Registration |</a>
+                    <a href="Home page.html">Logout</a>
+                </div>
+            </td>
+        </tr>
+
+
+        <tr>
+            <td align="center" rowspan="3" >
+			<p><b>MENU</b></p>
+			<hr>
+			<ul>
+            <li> <a href="Managers information.html" target="_blank">Managers information</a></li>
+            <li> <a href="Manager responsibilities.html" target="_blank">Manager responsibilities</a></li>
+			<li> <a href="Admin.html" target="_blank">Admin</a></li>
+			<li> <a href="Supplier preserve.html" target="_blank">Supplier preserve</a></li>
+            <li> <a href="Delivery preserve.html" target="_blank">Delivery preserve</a></li>
+            <li> <a href="Oderlist.html" target="_blank">Orderlist</a></li>
+			<li> <a href="Account.html" target="_blank">Account</a></li>
+			<li> <a href="Inventory.html" target="_blank">Inventory</a></li>
+					
+					</ul>
+            </td>
+            <td width="65%" rowspan="3">
+               <fieldset>
+               <legend><b>Profile</b></legend>
+               <table>
+                   <tr>
+                       <td>Name : Sheuly Akter </td>
+                       <td><?php echo $user_name ?> </td>
+                       <td rowspan="5" >
+                       <img width="40%" src="user1.png"><br>
+                           
+                       </td>
+                   </tr>
+                   <tr>
+                   <td>Email : sa@gmail.com </td>
+                       <td><?php echo $email ?> </td>
+                       <td></td>
+                   </tr>
+                   <tr>
+                   <td> Gender : Female </td>
+                       <td><?php echo $gender ?> </td>
+                       <td></td>
+                   </tr>
+                   <tr>
+                   <td>Date of Birth : 01-07-2000 </td>
+                       <td><?php  for(  $i = 0 ; $i < count($date_birth) ; $i++){echo $date_birth[$i]; if( $i !=2 ) { echo "/";  } } ?> </td>
+                       <td></td>
+                    </tr>
+                   <tr>
+                   <td>
+                   <a href="Edit Profile.html">Edit Profile</a>
+                   </td>
+
+                       <td></td>
+                       <td></td>
+                   </tr>
+
+               </table>
+           </fieldset>
+        </td>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+        <tr>
+            <td align="center" colspan="2" >
+                Copyright &#169; 2021
+            </td>
+        </tr>
+    </table>
+	<?php
+
+    session_start();
+$user = $_SESSION['current_user'] ;
+
+$user_name = $user ['user_name'];
+$gender = $user ['gender'];
+$date_birth = $user ['date_barth'];
+$email =  $user ['email'];
+
+?>
+</body>
+
+</html>
