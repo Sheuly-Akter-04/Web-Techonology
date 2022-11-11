@@ -1,0 +1,38 @@
+[
+    {
+        "username": "Test",
+        "phone": "011",
+        "email": "test1@gmail.com",
+        "address": "Test Address"
+    },
+    {
+        "username": "Test2",
+        "phone": "012",
+        "email": "test2@gmail.com",
+        "address": "Test Address"
+    },
+    {
+        "username": "Test3",
+        "phone": "013",
+        "email": "test3@gmail.com",
+        "address": "Test Address"
+    },
+    {
+        "username": "Test4",
+        "phone": "014",
+        "email": "test4@gmail.com",
+        "address": "Test Address"
+    },
+    {
+        "username": "Test5",
+        "phone": "015",
+        "email": "test5@gmail.com",
+        "address": "Test Address"
+    },
+    {
+        "username": "Test6",
+        "phone": "016",
+        "email": "test6@gmail.com",
+        "address": "Test Address"
+    }
+]
