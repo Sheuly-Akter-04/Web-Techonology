@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Page 7</title>
+</head>
+<body>
+<form methods="" action"">
+<fieldset>
+<legend >Profile Picture</legend>
+   
+<tr>
+<td>
+User Id
+<input type="text" name="user id" values""?> <br>
+</td>
+</tr>
+<br>
+<tr>
+<td>Picture
+<input type="picture" name="image" value=""> 
+</td>
+</tr>
+<tr><br>
+<td>
+<hr>
+<input type="submit" name="submit" value="Submit">
+
+ 
+
+</td>            
+</tr>
+</form>
+</body>
+</html>

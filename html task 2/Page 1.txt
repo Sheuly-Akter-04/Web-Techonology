@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Page 1</title>
+</head>
+<body>
+<form methods="" action"">
+Name<br> 
+<input type="text" name="name" values""?> <br><br>
+<input type="submit" name="submit" value="Submit"><br>
+</form>
+</body>
+</html>
+
+
+
