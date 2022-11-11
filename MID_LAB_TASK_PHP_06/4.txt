@@ -1,0 +1,90 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <form action="Registration.php" method="post">
+        <fieldset>
+          <legend><h1>Registration</h1></legend>
+ 
+            <table>
+            <tr>
+            <td>
+                <tr>
+                    <td><span><b>Name</b></span></td>
+                    <td>:<input type="text" name="uname" value="">
+                    
+                   </td>
+                   
+                   </tr>
+                   
+                   <tr>
+                    <td><span><b>Email</b></span></td>
+                    <td>:<input type="text" name="email" value="">
+                    </td>
+
+ 
+
+                </tr>
+
+ 
+
+                <tr>
+                    <td><span><b>User Name</b></span></td>
+                    <td>:<input type="text" name="uname" value="">
+                    </td>
+
+ 
+
+                </tr>
+                
+                <tr>
+                    <td><span><b>Password</b></span></td>
+                    <td>:<input type="password" name="pass" value="">
+                    
+                </tr>
+                <tr>
+                    <td><span><b>Confirm Password</b></span></td>
+                    <td>:<input type="password" name="pass" value="">
+                    
+                </tr>
+                <tr>
+                <td> <form action="Gender" method="post">
+                 <fieldset>
+                <legend>Gender</legend>
+                    <input type="radio" name="gender" value="Male"><span>Male</span>
+                        <input type="radio" name="gender" value="Female"><span>Female</span>
+                        <input type="radio" name="gender" value="Other"><span>Other</span>
+                </tr>
+                </td>
+                </tr>
+                </form>
+     <tr>
+     <td>
+ 
+
+ 
+
+          <form methods="" action"">
+           <fieldset>
+            <legend >Date of Birth</legend>
+            &emsp;&emsp;&emsp;dd  &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;     mm  &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;      yyyy<br>
+           <input type="text" name="dd" values""?>/ 
+           <input type="text" name="mm" values""?>/
+           <input type="text" name="yyyy" values""?> <br><br>
+            </form>
+       </td>
+       </tr>
+       <tr>
+       <td>
+       <hr>
+           <input type="submit" name="submit" value="Submit">
+           <input type="reset" name="reset" value="Reset">
+           </td>
+           </tr>
+
+ 
+
+ </form>
+ </table>
+</body>
+</html>
