@@ -1,0 +1,84 @@
+<products>
+    <product sr="1">
+	
+	       <id>11</id>
+		   <name>Samsung</name>
+		   <unit_price>35000</unit_price>
+		   <stock>50</stock>
+		   <status>1</status>
+	</product>
+     
+    <product sr="2">
+	
+	       <id>20</id>
+		   <name>HTC</name>
+		   <unit_price>65300</unit_price>
+		   <stock>35</stock>
+		   <status>0</status>
+	</product>	 
+	
+	<product sr="3">
+	
+	       <id>23</id>
+		   <name>Nokia</name>
+		   <unit_price>25100</unit_price>
+		   <stock>100</stock>
+		   <status>1</status>
+	</product>
+</products>
+
+
+
+
+<students>
+   
+   <student sr="1">
+        <slno> 23 </slno>
+        <name> John Carter </name>
+        <admissionDate> 25/12/2015 </admissionDate>
+	</student>
+	
+	<student sr="2">
+         <slno> 29 </slno>
+         <name> Bob Marshal </name>
+         <admissionDate> 13/01/1999 </admissionDate>
+	</student>
+
+    <stude sr="3">
+         <slno> 35 </slno>
+         <name> Clark Kent  </name>
+         <admissionDate> 17/06/2005 </admissionDate>
+	</student>
+</students>
+ 
+
+
+
+<employees>
+    <employee sr="1">
+	
+	       <id>1</id>
+		   <name>John Doe</name>
+		   <address>H#38, R#3 Banani,Dhaka</address>
+		   <department>Sales</department>
+		   <salary>$20000</salary>
+	</employee>	
+	
+	<employee sr="2">
+	
+	       <id>2</id>
+		   <name>Mark Zuckerberg</name>
+		   <address>Flat#A/1, H#20,R#18,Mirpur,Dhaka</address>
+		   <department>Accounts</department>
+		   <salary>$12000</salary>
+	</employee>
+	
+	<employee sr="3">
+	
+	       <id>3</id>
+		   <name>Ala Voska</name>
+		   <address>H#38, R#3,Motijheel</address>
+		   <department>Human Resource</department>
+		   <salary>$30000</salary>
+	</employee>
+</employees>
